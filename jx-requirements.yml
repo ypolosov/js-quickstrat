@@ -16,6 +16,8 @@ spec:
     provider: minikube
   environments:
   - key: dev
+    owner: ypolosov
+    repository: js-quickstrat
   - key: staging
   - key: production
   ingress:
@@ -26,6 +28,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: ypolosov
   repository: bucketrepo
   secretStorage: local
   vault: {}
