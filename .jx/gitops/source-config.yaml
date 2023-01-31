@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: jx-angular
+    - name: sample-app
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
